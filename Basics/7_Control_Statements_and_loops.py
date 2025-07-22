@@ -157,3 +157,9 @@ for i in range(1, 4):     # Rows
 
 # ⚠️ Be Careful: Reset inner loop counters properly.
 # Avoid infinite loops in while inside while.
+
+numbers = [3, 7, 2, 8, 5]
+for i, num in enumerate(numbers):
+   if i == num:
+       break
+   print(num, end=' ') # 3 7
